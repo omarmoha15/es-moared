@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+   
+
+  }
+}
+
+body {
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+  /* color: rgb(var(--foreground-rgb)); */
+
+}
