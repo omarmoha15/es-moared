@@ -61,10 +61,10 @@ function App({ children }) {
    icon:<IoBodyOutline/>,
      submenu: true,
      submenuItem:[
-       {title:"سجلي التدريبي",href: "/0"},
-       {title:" رفع طلب اضافة دوره" ,href: "/0"},
-       {title:"رفع طلب ابتعاث",href: "/0"},
-       {title:"طلب التسجيل في دورات ",href: "/0"},
+       {title:"سجلي التدريبي",href: "/employerTraining"},
+       {title:" رفع طلب اضافة دوره" ,href: "/employerTraining"},
+       {title:"رفع طلب ابتعاث",href: "/employerTraining"},
+       {title:"طلب التسجيل في دورات ",href: "/employerTraining"},
        {title:""},
      ]
     },
@@ -145,6 +145,7 @@ function App({ children }) {
         // Clear the JWT token cookie
         Cookies.remove('jwtToken');
         router.push('/login');
+        
       } else {
         console.error('Logout failed');
         // Handle other status codes, if needed
